@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="flex">
       <Link href={"/"}>Home</Link>
       <Link href={"#about"}>About</Link>
       <Link href={"#resume"}>Resume</Link>
